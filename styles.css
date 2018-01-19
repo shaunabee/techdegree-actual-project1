@@ -99,6 +99,27 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card-me {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-aimee {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
