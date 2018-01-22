@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 200px;
   height: 215px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 35%;
+  border: 2px groove white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -100,25 +100,14 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.card-me {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
+.cat-image {
+  height: 500px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10%;
+  border: 2px solid white;
 }
-.card-aimee {
-  margin-left: 30px;
-  margin-right: 30px;
-  padding: 10px 40px 40px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
+
 
 .card:hover {
   border-color: #ff99ff;
@@ -141,6 +130,7 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
 
 footer {
   width: 100%;
